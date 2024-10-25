@@ -1,1000 +1,157 @@
-Paper;Community of Focus;Code;SubCode;Other;Citation
-A305;Motor/physical impairment;Assistive Technology related;Technologically Limited;Navigability;All participants highlighted that they use speech-based tools (e.g. Talon [42], Dragon Dictate [45]) for development work and emphasized that their existing tools provide limited navigation features
-A79;Blind and/or Visual Impaired;Assistive Technology related;Time consuming;Alertability;Although participants reported that they were proficient with screen readers, some (P3, P4, and P6) described performance issues with their assistive tech that made web development tasks like debugging difficult.
-A409;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;Another challenge mentioned by blind developers is using debugging tools, as most debugging tools do not work well with screen readers
-A409;Blind and/or Visual Impaired;Assistive Technology related;Time consuming;Navigability;Blind developers found it difficult to search through the code to find variables or methods, especially since it requires moving the cursor to a specific line in order to have the screen reader read it aloud
-A312;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;Navigability;Blind programmers who are using screen readers or braille displays (which convey information linearly, one line at a time) have difficulty understanding structural relationships quickly [11, 19, 23].
-A279;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;Discoverability;However, these cues are not always accessible to screen reader users, meaning that individuals who are blind may not be benefiting from the support provided to sighted users.
-A61;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;Glanceability;Many cues about the structure of source code like indentation and nesting hierarchies are encoded visually, making it difficult for DWVI to comprehend and navigate code with screen readers efficiently
-A79;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;Many issues that blind screen reader users face when using web content stem from a lack of screen reader-compatible semantic structure and interactivity.
-A241;Blind and/or Visual Impaired;Assistive Technology related;Cognitive Overload;Glanceability;Other participants (P6, P10, P11) indicated the advantage of sighted programmers of moving through the code quicker and having less information to memorize than BVI programmers.
-A305;Motor/physical impairment;Assistive Technology related;Time consuming;;Participants also emphasized that any new approaches developed using solely voice as the primary method of interaction should be simple and intuitive ìout-of-the-boxî, as opposed to requiring additional configuration (which can potentially be tedious and time consuming)
-A241;Blind and/or Visual Impaired;Assistive Technology related;Time consuming;Navigability;Participants brought up the difficulty in navigating through a code base as their screen readers move primarily in a linear manner
-A279;Blind and/or Visual Impaired;Assistive Technology related;Time consuming;;Participants described the process of verifying code and content as time-consuming, as they would need to switch continuously between the code in the text editor to the browser page to ensure that all errors had been fixed. If further errors were identified, participants would often leave comments in the code to repair them at a later point in time.
-A279;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;Participants highlighted difficulties with screen readers interpreting Javascript output, making it challenging in certain instances to verify whether the scripting code which they had written was appropriate. As a result, scripting languages were often used with caution.
-A312;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;Discoverability;Prior research on blind programmers has found that the information conveyed through visual metaphors in IDEs are often not conveyed by screen readers [2], which creates challenges for blind programmers [9, 18], putting them at a disadvantage when compared to their sighted peers [7, 11]
-A409;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;Screen readers only allow blind programmers to have access to a single line of code at a time. Therefore, to move around in the code, the programmers are limited to a few options: using the arrow keys to go through each line of code, using the outline or package explorer to navigate to a specific method and then navigating within the method line by line, or using a search mechanism
-A79;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;Some participants (n=3) use the NVDA developer toolkit (DTK) [19] to better understand visual interfaces and the output of their CSS. NVDA DTK allows users to move through elements in the DOM using arrow keys and provides some information about the visual interface (such as their color, font, height, position of top, right, bottom, and left edges, and distance between parent elements). However, ìDTK cannot access information such as CSS rules, padding, borders, or z-indexî [58]
-A61;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;Sometimes CLI commands do provide progress indication. In these cases, they try to simulate GUI-like progress indication mechanisms like progress bars (Fig.5) and spinners (Fig.6). However, screen readers do not recognize them as progress indicators and vocalize the underlying Unicode characters
-A100;Blind and/or Visual Impaired;Assistive Technology related;Time consuming;;Text-to-speech (TTS) has been revolutionary in making computing accessible for the blind, it may be regarded as being monotonous and too slow for particular users
-A379;Other - Deaf-Blind;Assistive Technology related;Technologically Limited;;The interoperability of collaborative workplace systems with assistive technologies for deaf-blind users is limited to screen readers used with refreshable braille displays
-A279;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;the restrictive nature of screen readers can impact the process of spatially-distributing content on a graphical user interface (e.g. a web page), resulting in designs which may not look as visually-appealing as those developed by sighted developers
-A65;Blind and/or Visual Impaired;Assistive Technology related;Time consuming;;The scarcity of documentation on accessibility of UI components meant that programmers with visual impairments often had to just ìdive in and tryî (T8) to assess the severity of issues across frameworks and libraries: P14: I produced a Qt 5 interface that I cannot interact with [...] after a long, long time of research, I learned about some basic things that can adjust the code to make it accessible to the screen reader.
-A65;Blind and/or Visual Impaired;Assistive Technology related;Time consuming;Navigability;They also felt that the additional lines of code made readability and navigation difficult with screen readers, especially when editing the UI
-A8;Blind and/or Visual Impaired;Assistive Technology related;Cognitive Overload;;This line-by-line strategy is feasible, but imposes a high cognitive load on the programmerósyntax details such as whitespace and block braces are often very difficult to follow, as Stefik et al. demonstrate in multiple studies [8],[9], [10]
-A74;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;Glanceability;Unfortunately, screen readers do not have access to a programís structure. Tokens are read one at-a-time, and the program is broken up into nothing more than a series of lines
-A61;Blind and/or Visual Impaired;Assistive Technology related;Cognitive Overload;;Users persevere with slow line-by-line reading, relying on their memory and experience and by being generally resilient to issues they encounter
-A61;Blind and/or Visual Impaired;Assistive Technology related;Time consuming;;Users persevere with slow line-by-line reading, relying on their memory and experience and by being generally resilient to issues they encounter
-A100;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;Visually-impaired programmers today achieve this using screen readers and tactile displays, but these tools did not completely remove barriers to making professional computing truly accessible [4].
-A61;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;While being a text- and keyboard-based interface contributes to improved accessibility compared to graphical user interfaces, this does not necessarily translate into a completely accessible user experience. For instance, being text-based and keyboard operable would meet only a small subset of the WCAG [5] criteria
-A114;Blind and/or Visual Impaired;Assistive Technology related;Technologically Limited;;Unfortunately, blind programmers have no way to skim code that is presented on the web. The accessibility is comparable to that of a primitive text editor.
-A533;General;Companies inability to deal with PwD;Lack of inclusion policies;;(2) a lack of accountability towards disabled workers in atypical employment
-A533;General;Companies inability to deal with PwD;Lack of inclusion policies;;A major difference between the Analogue and the Digital Economies lies in the invisibility of the online world: what happens in the virtual workplace may easily be left unseen, which makes it all the more important to collect data on disabilities within the Digital Economy, if inclusion is to be taken seriously and any labour market inequalities are to be addressed, as the European Union has set out to do.
-A543;Neurodivergent;Companies inability to deal with PwD;Lack of inclusion policies;;Another point that was raised is that even with many actions being taken to make the company more pleasant for everyone, there are still groups that are not receiving due attention in some companies. A contrasting example given by the interviewees P4 and P7 is about the group of neurodivergent people. While P4 says the debate on neurodiversity does not happen within company A and the leadership is not trained to deal with these situations,
-A543;Neurodivergent;Companies inability to deal with PwD;Inadequate Hiring Process;diversity;As reported by P4, these [selection] processes need to be restructured since the traditional ones used by companies usually depend on body language and other factors that naturally end up harming the performance of neurodivergent people.
-A65;Blind and/or Visual Impaired;Companies inability to deal with PwD;Impacts on Career Advancement;;Employment opportunities were a common reason among interview participants (n = 9) to learn UI development.
-A533;General;Companies inability to deal with PwD;Lack of inclusion policies;;For the distribution platforms to become more inclusive for all developers, a more responsive and approachable customer service would be required assisting disabled developers in the app review process.
-A65;Blind and/or Visual Impaired;Companies inability to deal with PwD;Lack of inclusion policies;;Furthermore, workplace dynamics complicated the implementation of accessibility. P10 mentioned that the changes had to be approved by senior management, who may consider the trade-offs between his productivity as a developer and the time it would take to improve the accessibility
-A520;Neurodivergent;Companies inability to deal with PwD;Inadequate Hiring Process;;However, adults with ASD often have trouble navigating traditional job interviews, complex work environments due to the social dynamics, varied communication requirements and need for flexibility [28].
-A79;Blind and/or Visual Impaired;Companies inability to deal with PwD;Impacts on Career Advancement;;However, there has been little formal investigation of what navigating web development education and web-related career pathways are like as a blind screen reader user.
-A305;Motor/physical impairment;Companies inability to deal with PwD;Lack of Accessible Work Environments;;However, this can present signifcant barriers for people with physical impairments who may experience challenges in using traditional input devices to support coding activities. The use of voice control in conjunction with other input modalities (e.g. mechanical switches, eye gaze, etc.) presents an alternative interaction method for enabling disabled developers to write, navigate, and manipulate code [6, 29, 32], although there has been a lack of work around this area to date
-A379;Other - Deaf-Blind;Companies inability to deal with PwD;Lack of Accessible Work Environments;;If anything is moved around or modified, there is a high probability that the userís workflow could becompletely halted. The physical arrangement of the facility for the average employee, encourages a productive workflow. However, for the assistive technology user, the updating of furniture placement brings about anxiety and more effort to get used to adjustments and rework his daily routine.
-A520;Neurodivergent;Companies inability to deal with PwD;Inadequate Hiring Process;;Individuals with ASD may be overlooked within a regular interview process due to their unique social skills.
-A241;Blind and/or Visual Impaired;Companies inability to deal with PwD;Impacts on Career Advancement;;Participants mentioned often leaving the UI work to their coworkers while they focus on the logic aspect of the program.
-A543;General;Companies inability to deal with PwD;Lack of inclusion policies;General;People with disabilities was only briefly mentioned by manager A. Some specific practices were still carried out, such as the addition of sign language interpreters in meetings, but which in any case only reach a small audience within the group of people with disabilities.
-A79;Blind and/or Visual Impaired;Companies inability to deal with PwD;Impacts on Career Advancement;;Several participants (P2, P4, P7, P8, P11) told us that they have mostly shied away from front-end web development and in their professional lives have gravitated to companies/organizations that structure work around a division of labor between front-end and back-end web development
-A543;Neurodivergent;Companies inability to deal with PwD;Lack of inclusion policies;General;some groups end up being left out and little is done regarding their needs within companies. This is the scenario for neurodivergent people and people with disabilities, who even in the Software Engineering literature rarely have their needs discussed in the context of diversity
-A279;Blind and/or Visual Impaired;Companies inability to deal with PwD;Impacts on Career Advancement;;They suggested that after trying to learn these technologies, frustrations from not being able to access components in the software led them to using alternative solutions.
-A520;Neurodivergent;Companies inability to deal with PwD;Lack of Accessible Work Environments;;When designing a typical office space, it is designed to meet all of the average personsí basic needs. Although a lot of the time, the designer does not consider the needs of a person with ASD. Design elements that are autism-friendly include an orderly workspace, simple design, indirect lighting, muted colour tones, quietness and escape rooms which can create a positive work environment and help limit the stress and anxiety triggers for individuals with ASD [19, 34]
-A147;Blind and/or Visual Impaired;Educational Resources and Learning;;Discoverability;Behind this problem are intertwined issues of accessibility and learnability. Because different IDEs use different architectures and have different levels of accessibility compliance, blind developers face a new learning curve each time they use an IDE
-A147;Blind and/or Visual Impaired;Educational Resources and Learning;;;Blind developers also face the additional challenge of learning the non-visual workaround of accessing an IDE with a screen reader [9]
-A241;Blind and/or Visual Impaired;Educational Resources and Learning;;;P6 mentioned the challenge when a new tool is introduced and the additional cognitive effort required by BVI programmers to learn it. Compared to sighted programmers, it may take longer for BVI programmers to learn a tool:
-A3;Blind and/or Visual Impaired;Educational Resources and Learning;;;Six participants {P1, P3, P4, P7, P8, P10}, identified specific accessibility issues in official documentation
-A3;Blind and/or Visual Impaired;Educational Resources and Learning;;;Six participants {P4, P5, P6, P9, P10} remarked upon the accessibility of forums and, in particular, Stack Over Flow
-A3;Blind and/or Visual Impaired;Educational Resources and Learning;;;So, while textbooks were especially useful resources, whether they were accessible largely depended on their format
-A3;Blind and/or Visual Impaired;Educational Resources and Learning;;;specific accessibility issues in blogs and tutorials. Most commonly, participants indicated that blogs and tutorials make heavy use of visual instructional content that is not properly described {P1, P2, P5, P6, P7, P8, P9, P12}. {P5} suggested that accessibility issues are especially prevalent in blogs and tutorials
-A65;Blind and/or Visual Impaired;Educational Resources and Learning;;;The scarcity of documentation on accessibility of UI components meant that programmers with visual impairments often had to just ìdive in and tryî (T8) to assess the severity of issues across frameworks and libraries: P14: I produced a Qt 5 interface that I cannot interact with [...] after a long, long time of research, I learned about some basic things that can adjust the code to make it accessible to the screen reader.
-A65;Blind and/or Visual Impaired;Educational Resources and Learning;;;These challenges are amplified by IDE documentation that rely on screenshots and do not list relevant keyboard shortcuts
-A114;Blind and/or Visual Impaired;Educational Resources and Learning;;;Blogs and tutorials routinely feature code samples embedded alongside the text. If a blind programmer wants to skim the code, they must have an IDE that supports it. They must then clone the entire repository or manually download single files. This process is tedious and will reduce the blind programmerís effectiveness at a program comprehension task.
-A3;Blind and/or Visual Impaired;Educational Resources and Learning;;;while web search sites were largely accessible, the variable accessibility of returned results created an mixed experience. Additionally, because the web search sites return valid resultsótheir intended functionóinaccessibility in the sources returned may be particularly frustrating, in that DWVI, like {P11}, may know they have found the right information, but are then prevented from retrieving it.
-A8;Blind and/or Visual Impaired;Unemployment;;;blind programmers were a target of deliberate discrimination by employers, despite legal protections, due to confusion about how a blind person might integrate into team of sighted programmers [19]. Studies of how blind programmers comprehend code may help demystify the process of hiring the visually impaired
-A520;Neurodivergent;Unemployment;;;individuals with ASD in their twenties were found to be less likely to be employed than their peers with other disabilities, including speech/ language impairment, emotional disturbance, intellectual disability and learning disabilities
-A520;Neurodivergent;Unemployment;;;Strikingly, almost 42% of young adults on the autism spectrum either never worked, or worked and did not receive remuneration for that work during their early 20ís
-A533;General;Unemployment;;;The Committee also noted the persistent employment and pay gaps, which reveal the severity of the labour market inequalities. The employment gap between disabled and nondisabled people of working age is currently at 20 and 40 percentage points for the EU and the UK respectively.
-A3;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Fear of being judged unqualified;;But, our findings suggest that whether employing the vision of sighted colleagues as a workaround was perceived by DWVI as an embarrassing act of reliance or a typical team collaboration depended upon the knowledge and empathy of their sighted teammate
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Fear of being judged unqualified;;These instances highlight that accessibility issues in UI development could affect responsibilities beyond software engineering tasks, which developers are expected to perform in professional settings.
-A312;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Fear of being judged unqualified;;Our participants indicated that seeking help from others, especially from those who are sighted, is avoided by many blind individuals in workplace settings, often due to embarrassment about the amount of time they take to accomplish certain tasks.
-A463;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Fear of being judged unqualified;;However, programmers with visual impairments feel that seeking assistance draws attention to the additional time it takes them to complete programming tasks [5]. This is likely to be magnifed in collaborative contexts, which we examine in our study
-A379;Other - Deaf-Blind;Work Dynamics in mixed ability teams;Social Interaction Challenges;;At the moment, adding a short sentence like ìHope youíre having a good day!î to the beginning of an email takes substantially longer for the user than it does for the average person. Consequently, the user avoids adding in such phrases and sticks to writing emails that are succinct and direct, so they can come off as unwelcoming and standoffish.
-A464;Neurodivergent;Work Dynamics in mixed ability teams;Social Interaction Challenges;;Challenges in social interactions and asking for help were identified.
-A520;Neurodivergent;Work Dynamics in mixed ability teams;Social Interaction Challenges;;However, adults with ASD often have trouble navigating traditional job interviews, complex work environments due to the social dynamics, varied communication requirements and need for flexibility [28].
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Fear of being judged unqualified;;P16 shared that his position as the only blind person in the organization and as a new member of the team foregrounded his request. Insisting upon accessibility could suggest to the team that he was not able to do his job as well as other developers.
-A379;Other - Deaf-Blind;Work Dynamics in mixed ability teams;Social Interaction Challenges;;Since he is blind-deaf, it is difficult for people to interact with him face-to-face, as any contact startles him.
-A464;Neurodivergent;Work Dynamics in mixed ability teams;Social Interaction Challenges;;Neurodiverse individuals offer unique perspectives and strengths to the workplace. However, they may encounter challenges related to executive functions (e.g., inhibitory control, cognitive flexibility, working memory, planning, and reasoning), essential for behavioral control, teamwork, and job performance in software development
-A520;Neurodivergent;Work Dynamics in mixed ability teams;Social Interaction Challenges;;This lack of interpersonal skills can in turn be a challenge to those with ASD trying to gain employment as a significant number of software development jobs require communication, collaboration and management skills [16]
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Fear of being judged unqualified;;Participants (n = 3) shared that poor accessibility of the UI presented challenges during demonstrations. In meetings involving stakeholders and clients, it could also suggest poor quality of work by the team.
-A520;Neurodivergent;Work Dynamics in mixed ability teams;Social Interaction Challenges;;Individuals may experience difficulty empathising with colleagues and as many autistic people have restricted or specialised interests, they may distract themselves during social interactions [17] making it difficult to build relationships among co-workers and peers. Morris et al. explain that individuals with autism experience difficulties interpreting co-workersí statements and emotions, coping with office politics and managing conflicts with peers [16]. These various social challenges can in turn induce stress and anxiety for those experiencing ASD, especially in the workplace
-A379;Other - Deaf-Blind;Work Dynamics in mixed ability teams;Social Interaction Challenges;;The need for such a device was imperative as we heard through our contextual inquiry that some have concerns on what to do in the times of an emergency and others feel anxious initiating an in-person conversation with the user. Trying to address this issue, this system hopes to alleviate some of the concerns and anxiety that revolve around such interactions.
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Extra work advocating for accessibility;;"Participants also described having to advocate for accessible solutions within their team. Often the decision to use a particular framework or programming tool was taken by the team collectively. If they chose things with poor accessibility, it could severely impact the productivity of programmers with visual impairments. For instance, P8 had to convince his team to use Xamarin and Visual Studio for the Android application they were building; the poor accessibility of Android Studio would keep him from giving his ìfull effortsî: P8: I explained to them that if we develop using Xamarin, we will be able to do it in less time."
-A79;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Extra work advocating for accessibility;;P8 told us about a number of strategies employed to self-advocate in the workplace, but ultimately that it was the responsibility of everyone
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Extra work advocating for accessibility;;As prior work has found, programmers with visual impairments were often tasked with educating their colleagues about accessibility issues and advocating for accessible solutions
-A79;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Extra work advocating for accessibility;;P8 described issues with colleagues not knowing how to work with him and needing to demonstrate how
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Extra work advocating for accessibility;;Both P10 and P16 shared that they had pushed for making their UIs accessible, not only to make themselves more productive but also for other screen reader users. However, it was difficult to implement accessibility in legacy UIs, an issue also raised in several email threads (n = 5).
-A3;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;four participants {P7, P9, P11, P12} indicated times where sighted others introduced accessibility issues in their information seeking.
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;If the UI elements are not in the correct order or misrepresented, then it affects screen reader navigation and interaction. For programmers with visual impairments, this hindered their ability to debug and test.
-A79;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;P8 described issues with colleagues not knowing how to work with him and needing to demonstrate how
-A145;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;However, moving to a large organization as part of a product team required the use of an IDE used by the other team members to work efficiently
-A241;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;Remote;P6 has difficulty when it comes to using team-based collaboration tools such as Trello.
-A429;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;Without the ability to modify and create new diagrams the access of blind people is only partial, they are able to access and understand the information they seek to convey but are unable to participate in its construction or collaborate in software modeling activities by using TeDUB
-A463;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;Challenges in collaboration are likely to reinforce some of the ableist perceptions about the abilities of people with visual impairments and limit their opportunities for employment and advancement
-A146;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;Remote;That task of providing accessible awareness information lies at the heart of facilitating effective remote collaborations in mixedability contexts.
-A464;Neurodivergent;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;Challenges emerged in executive functions and cognitive abilities such as working memory, task initiation, cognitive flexibility, and abstract reasoning
-A520;Neurodivergent;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;People with ASD can also struggle with multitasking which may be particularly difficult during team meetings where employees must listen and contribute to the conversation
-A579;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;On-Site;In the beginning, the blind developer was limited to performing accessibility tests and maintaining old software. He was unable to access information displayed on visual management items, and consequently was unable to communicate with his colleges through these means.
-A579;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;On-Site;This version of the Task Board had accessibility problems. In fact, nothing in it was accessible. The features copied and placed on one of the twelve frames made it virtually impossible for a blind person to find information on the task board
-A579;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;On-Site;The Task Board contained four projects, and someone had to guide him to the correct one. Furthermore, to distinguish the stages of the project, he had to find the end of the table containing the project he was assigned, and then with his finger find the boundaries between each stage until the To Do column.
-A241;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;p6 mentions how his visual impairment can make certain collaborative activities like pair programming a challenge
-A146;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;Remote;In summary, the workarounds discussed above insufficiently convey collaborator awareness, suffer from delays, place a disproportionate burden on BVI people for driving the collaboration, and compromise their agency
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;artifacts such as wireframes and design specifications lack text descriptions or are inaccessible with screen readers, requiring clarification about colors, pixel values, etc., with sighted team members
-A464;Neurodivergent;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;Challenges in social interactions and asking for help were identified.
-A579;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;On-Site;The new process included several visual management elements, such as task board [13], work completion graphs [14, 5], and software testing panels [15]. These components helped provide transparency, inspection capacity and schedule predictability. However, the team included one blind developer, so a model based on visual elements meant a challenge for them.
-A146;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;A common approach is asking collaborators to describe their actions, but sighted people often forget to verbalize the relevant details, resulting in incomplete collaborator awareness
-A241;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;P4 and P10 recall experiences of team settings where coworkers often have trouble determining how to send visual information in a format that is readable by a screen reader. For example, P10 would get an image of code from a coworker but her screen reader is unable to read it.
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;Inaccessible GUI builders could also complicate collaboration with sighted colleagues. It prevented them from creating ìclean looking resource fileî (T30) that their sighted colleagues could review quickly.
-A146;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;Remote;This screen inaccessibility is magnifed in remote synchronous collaboration. (...). However, BVI developers cannot access the screen share video or the visual awareness cues in IDEs through assistive technologies such as screen readers
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;Unable to use the application fully, he could not build sufficient context about the project. He shared that he had to attend multiple meetings with the design team and his manager to understand the UI design and functionality expected from controls he could not access
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;the differences in programming environments also make it difficult for programmers with visual impairments to give and receive instrumental help.
-A65;Blind and/or Visual Impaired;Work Dynamics in mixed ability teams;Collaborative Work Challenges;;In the case of UI development, they complicate the processes of code writing, debugging, and ensuring accessibility with screen readers. They also impact collaboration between programmers with visual impairments and their sighted colleagues since they use different approaches to UI development. [they: Programming Environment]
-A64;Blind and/or Visual Impaired;Work Tools Inaccessibility;Diagrams and Prototyping Tools;N/A;"""Notwithstanding small variations across screen readers (VoiceOver generally performing better) and prototyping tools (Balsamiqís task efciency as a beneft), our analysis showed that prototyping tools are not efectively accessible to screen readers, and thus would be difcult to access by a person with a vision impairment."""
-A65;Blind and/or Visual Impaired;Work Tools Inaccessibility;Diagrams and Prototyping Tools;N/A;artifacts such as wireframes and design specifications lack text descriptions or are inaccessible with screen readers, requiring clarification about colors, pixel values, etc., with sighted team members
-A100;Blind and/or Visual Impaired;Work Tools Inaccessibility;Diagrams and Prototyping Tools;N/A;Visual aids that are commonly used by sighted people remain unavailable to the community of visually-impaired programmers. These include features to make code more readable, such as colour coding, indentation, features from integrated development environments (IDEs), as well as UML and data structure diagrams to illustrate programming concept
-A429;Blind and/or Visual Impaired;Work Tools Inaccessibility;Diagrams and Prototyping Tools;N/A;Most of the times there is also textual content inside these diagrams, but the meaning of the visual notations is so relevant that the understanding of the content is almost impossible when only listening to the textual content of the model.
-A76;Blind and/or Visual Impaired;Work Tools Inaccessibility;Other - Block;;The Blockly library itself is not accessible to people with visual impairments, and as a result, all the mainstream BBPEs that rely on Blockly are not accessible
-A65;Blind and/or Visual Impaired;Work Tools Inaccessibility;Visual Interface Development;;Several solutions at the intersection of accessibility and UI development are targeted at sighted developers and designers to support them in building accessible interfaces. First, their underlying interactions and interfaces remain visual and, therefore, of limited use to programmers with visual impairment.
-A61;Blind and/or Visual Impaired;Work Tools Inaccessibility;Other - CLI;;dificulty in consuming unstructured text that often appears as output of commands. [Command Line Interface]
-A61;Blind and/or Visual Impaired;Work Tools Inaccessibility;Other - CLI;;Sometimes CLIs use ASCII characters to decorate tables and other output entities to make them visually appealing. However, our study participants found this experience very distracting and adding to the already difficult task of reading a table
-A145;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;;Author B has been programming using a screen reader and Bís experiences with IDEs involved significant effort in tackling inaccessibility
-A147;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Discoverability;Behind this problem are intertwined issues of accessibility and learnability. Because different IDEs use different architectures and have different levels of accessibility compliance, blind developers face a new learning curve each time they use an IDE
-A79;Blind and/or Visual Impaired;Work Tools Inaccessibility;Visual Interface Development;;P8 reported that CSS output ìis by far the biggest accessibility hurdle that you have to deal with, which is why I donít deal with CSS.î Specifically, he described issues in knowing what is rendered on screen
-A87;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;;These heavily visual tools and the intrinsic characteristics of most programming languages impose significant barriers to people with visual impairments working as programmers or software developers
-A100;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Glanceability;Visual aids that are commonly used by sighted people remain unavailable to the community of visually-impaired programmers. These include features to make code more readable, such as colour coding, indentation, features from integrated development environments (IDEs), as well as UML and data structure diagrams to illustrate programming concept
-A145;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;;Aís attempt to move to an IDE like Visual Studio was unsuccessful since the accessibility issues were found to be too daunting without continuous help from a sighted person.
-A61;Blind and/or Visual Impaired;Work Tools Inaccessibility;Other - CLI;Debug/Navigation;The most frequent issues found were around IDE accessibility, debugging, and code navigation.
-A61;Blind and/or Visual Impaired;Work Tools Inaccessibility;Other - CLI;;it has been argued that the advent of visual tools has made it inaccessible to individuals with visual impairment
-A79;Blind and/or Visual Impaired;Work Tools Inaccessibility;Visual Interface Development;;Conceptual issues that participants reported relate to knowing what good visual design is. For example, participants described issues with knowing what colors look good together, what type face to select for different projects, and how to position elements to make a visually appealing interface layout
-A65;Blind and/or Visual Impaired;Work Tools Inaccessibility;Visual Interface Development;Navigability;They also felt that the additional lines of code made readability and navigation difficult with screen readers, especially when editing the UI
-A145;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Discoverability;"Discoverability: This is the ability with which a user can find features of the system to increase proficiency over time. Discoverability is an issue for sighted users as well but is exacerbated for VI developers. For instance, the author B was not aware of the variable watch window2 and used console messages to find the variable values until pointed out by a sighted team member. Ex: - Existing features; - New and modified features"
-A74;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Navigability;blind programmers have been shown to have more difficulties navigating and understanding the structure of code than their sighted counterparts [5, 9, 10
-A65;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;;In the case of UI development, they complicate the processes of code writing, debugging, and ensuring accessibility with screen readers. They also impact collaboration between programmers with visual impairments and their sighted colleagues since they use different approaches to UI development. [they: Programming Environment]
-A79;Blind and/or Visual Impaired;Work Tools Inaccessibility;Visual Interface Development;;"Some interview participants reported having issues with reconciling the relationship and potential differences between the document-object model (DOM) and the way DOM elements are rendered visually. P2 reported that he was able to grasp the associated terms, but not how they work together to create a ìnice looking web site"""
-A74;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Glanceability;Unfortunately, screen readers do not have access to a programís structure. Tokens are read one at-a-time, and the program is broken up into nothing more than a series of lines
-A145;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Glanceability;Glanceability: Visual Studio and most IDEs by definition, use the large real estate provided by high resolution monitors to present many aspects of the program development process in one screen
-A65;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;;Emulators provided by major IDEs like Android Studio were often inaccessible with screen readers
-A79;Blind and/or Visual Impaired;Work Tools Inaccessibility;Visual Interface Development;;Some participants (n=3) use the NVDA developer toolkit (DTK) [19] to better understand visual interfaces and the output of their CSS. NVDA DTK allows users to move through elements in the DOM using arrow keys and provides some information about the visual interface (such as their color, font, height, position of top, right, bottom, and left edges, and distance between parent elements). However, ìDTK cannot access information such as CSS rules, padding, borders, or z-indexî [58]
-A65;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Navigability;IDEs and text editors rely heavily on visual aids such as syntax highlighting and indentation to assist in source code navigation, organization, and visual search [13]ñ[15]. IDEs also organize information visually into panels and windows, which are difficult for programmers with visual impairments to locate quickly relative to sighted programmers.
-A145;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Navigability;Navigability: An added advantage for sighted developers is the ability to quickly navigate through code using scroll, point and click. Screen reader users are limited to the search functionality and few other navigation features provided by the IDEs
-A61;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Glanceability;Many cues about the structure of source code like indentation and nesting hierarchies are encoded visually, making it difficult for DWVI to comprehend and navigate code with screen readers efficiently
-A79;Blind and/or Visual Impaired;Work Tools Inaccessibility;Visual Interface Development;;Applied aspects of visual interface design include working with default HTML visual style and applying CSS. Participants reported issues with getting feedback about default element styles, the way element styles compute in relation to each other, and confirming that their CSS work has impacted visual styling, as intended
-A65;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Geopolitical Issues;The participants from Iran (P15 and P16) shared that they had to contend with an extra layer of inaccessibility. IDEs offered by Google and Apple, including the devices by the latter, were not usable in Iran because of the government sanctions imposed on the country.
-A145;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Alertability;"Alertability: IDEs convey a significant amount of real time information through a completely visual interface [2]. Such information alerts the developer to issues that need immediate attention or actions that are in progress. The following examples enumerate few scenarios where VI developers do not get access to the real time information provided by the IDE: - Debugging Information; - Error Information"
-A79;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Alertability;Although participants reported that they were proficient with screen readers, some (P3, P4, and P6) described performance issues with their assistive tech that made web development tasks like debugging difficult.
-A409;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Debug;Another challenge mentioned by blind developers is using debugging tools, as most debugging tools do not work well with screen readers
-A241;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Debug;Debugging and code navigation were discussed in parallel with aspects of debugging involving navigating to the error.
-A214;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;;While sighted developers are able to quickly develop code, blind developers can face difficulties in programming activities. The problem is that developers rely on the visual presentation of the code displayed within the Integrated Development Environments (IDEs). This programming software, which has features that require sight, presents obstacles for developers with visual impairments.
-A241;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Navigability;Other participants (P6, P10, P11) indicated the advantage of sighted programmers of moving through the code quicker and having less information to memorize than BVI programmers.
-A279;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Debug;Participants highlighted difficulties with screen readers interpreting Javascript output, making it challenging in certain instances to verify whether the scripting code which they had written was appropriate. As a result, scripting languages were often used with caution.
-A242;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Alertability;Being unable to use these visual cues, programmers with visual impairments must struggle to contend with the complexities of writing source code such as resolving syntax errors and determining nesting levels.
-A312;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Navigability;Blind programmers who are using screen readers or braille displays (which convey information linearly, one line at a time) have difficulty understanding structural relationships quickly [11, 19, 23].
-A305;Motor/physical impairment;Work Tools Inaccessibility;Other - Exception;Navigability;All participants highlighted that they use speech-based tools (e.g. Talon [42], Dragon Dictate [45]) for development work and emphasized that their existing tools provide limited navigation features
-A409;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Navigability;In fact, blind developers have more difficulties navigating and understanding the structure of code than their sighted counterparts
-A241;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Navigability;Participants brought up the difficulty in navigating through a code base as their screen readers move primarily in a linear manner
-A279;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Debug;Participants described the process of verifying code and content as time-consuming, as they would need to switch continuously between the code in the text editor to the browser page to ensure that all errors had been fixed. If further errors were identified, participants would often leave comments in the code to repair them at a later point in time.
-A409;Blind and/or Visual Impaired;Work Tools Inaccessibility;General Programming Challenges;Navigability;Blind developers found it difficult to search through the code to find variables or methods, especially since it requires moving the cursor to a specific line in order to have the screen reader read it aloud
-A312;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Discoverability;Prior research on blind programmers has found that the information conveyed through visual metaphors in IDEs are often not conveyed by screen readers [2], which creates challenges for blind programmers [9, 18], putting them at a disadvantage when compared to their sighted peers [7, 11]
-A312;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Discoverability;Screen reader users also have access to fewer advanced IDE features for quickly moving through a large codebase, often forcing them to navigate code line-by-line or jump to different locations using ìfind/searchî features [2]
-A380;Blind and/or Visual Impaired;Work Tools Inaccessibility;Other - physical;;Visualizations of sensor state are available in many of todayís physical computing platforms in visual form (e.g., [27, 68]). However, most of the websites and tools developed to program these boards, as well as the tutorials created for them, are partly or wholly inaccessible.
-A241;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;;Participants found that IDEs are too complex and geared more towards visual functionality.
-A279;Blind and/or Visual Impaired;Work Tools Inaccessibility;Visual Interface Development;;Participants suggested that it was difficult to modify the layout of objects using the screen reader, due to the lack of synchronization between the visual and non-visual presentation of web page content. This was particularly an issue when prototyping on-the-fly.
-A279;Blind and/or Visual Impaired;Work Tools Inaccessibility;Visual Interface Development;;Web editing technologies were thought to be designed with sighted users in mind, often encouraging users to drag-and drop. However, for non-mouse users, performing these tasks using keystrokes could be difficult.
-A279;Blind and/or Visual Impaired;Work Tools Inaccessibility;IDE's related;Discoverability;However, these cues are not always accessible to screen reader users, meaning that individuals who are blind may not be benefiting from the support provided to sighted users.
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
+Paper,Community of Focus,Code,SubCode,Other,Citation
+A305,Motor/physical impairment,Assistive Technology related,Technologically Limited,Navigability,"All participants highlighted that they use speech-based tools (e.g. Talon [42], Dragon Dictate [45]) for development work and emphasized that their existing tools provide limited navigation features"
+A79,Blind and/or Visual Impaired,Assistive Technology related,Time consuming,Alertability,"Although participants reported that they were proficient with screen readers, some (P3, P4, and P6) described performance issues with their assistive tech that made web development tasks like debugging difficult."
+A409,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,"Another challenge mentioned by blind developers is using debugging tools, as most debugging tools do not work well with screen readers"
+A409,Blind and/or Visual Impaired,Assistive Technology related,Time consuming,Navigability,"Blind developers found it difficult to search through the code to find variables or methods, especially since it requires moving the cursor to a specific line in order to have the screen reader read it aloud"
+A312,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,Navigability,"Blind programmers who are using screen readers or braille displays (which convey information linearly, one line at a time) have difficulty understanding structural relationships quickly [11, 19, 23]."
+A279,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,Discoverability,"However, these cues are not always accessible to screen reader users, meaning that individuals who are blind may not be benefiting from the support provided to sighted users."
+A61,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,Glanceability,"Many cues about the structure of source code like indentation and nesting hierarchies are encoded visually, making it difficult for DWVI to comprehend and navigate code with screen readers efficiently"
+A79,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,Many issues that blind screen reader users face when using web content stem from a lack of screen reader-compatible semantic structure and interactivity.
+A241,Blind and/or Visual Impaired,Assistive Technology related,Cognitive Overload,Glanceability,"Other participants (P6, P10, P11) indicated the advantage of sighted programmers of moving through the code quicker and having less information to memorize than BVI programmers."
+A305,Motor/physical impairment,Assistive Technology related,Time consuming,,"Participants also emphasized that any new approaches developed using solely voice as the primary method of interaction should be simple and intuitive ‚Äúout-of-the-box‚Äù, as opposed to requiring additional configuration (which can potentially be tedious and time consuming)"
+A241,Blind and/or Visual Impaired,Assistive Technology related,Time consuming,Navigability,Participants brought up the difficulty in navigating through a code base as their screen readers move primarily in a linear manner
+A279,Blind and/or Visual Impaired,Assistive Technology related,Time consuming,,"Participants described the process of verifying code and content as time-consuming, as they would need to switch continuously between the code in the text editor to the browser page to ensure that all errors had been fixed. If further errors were identified, participants would often leave comments in the code to repair them at a later point in time."
+A279,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,"Participants highlighted difficulties with screen readers interpreting Javascript output, making it challenging in certain instances to verify whether the scripting code which they had written was appropriate. As a result, scripting languages were often used with caution."
+A312,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,Discoverability,"Prior research on blind programmers has found that the information conveyed through visual metaphors in IDEs are often not conveyed by screen readers [2], which creates challenges for blind programmers [9, 18], putting them at a disadvantage when compared to their sighted peers [7, 11]"
+A409,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,"Screen readers only allow blind programmers to have access to a single line of code at a time. Therefore, to move around in the code, the programmers are limited to a few options: using the arrow keys to go through each line of code, using the outline or package explorer to navigate to a specific method and then navigating within the method line by line, or using a search mechanism"
+A79,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,"Some participants (n=3) use the NVDA developer toolkit (DTK) [19] to better understand visual interfaces and the output of their CSS. NVDA DTK allows users to move through elements in the DOM using arrow keys and provides some information about the visual interface (such as their color, font, height, position of top, right, bottom, and left edges, and distance between parent elements). However, ‚ÄúDTK cannot access information such as CSS rules, padding, borders, or z-index‚Äù [58]"
+A61,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,"Sometimes CLI commands do provide progress indication. In these cases, they try to simulate GUI-like progress indication mechanisms like progress bars (Fig.5) and spinners (Fig.6). However, screen readers do not recognize them as progress indicators and vocalize the underlying Unicode characters"
+A100,Blind and/or Visual Impaired,Assistive Technology related,Time consuming,,"Text-to-speech (TTS) has been revolutionary in making computing accessible for the blind, it may be regarded as being monotonous and too slow for particular users"
+A379,Other - Deaf-Blind,Assistive Technology related,Technologically Limited,,The interoperability of collaborative workplace systems with assistive technologies for deaf-blind users is limited to screen readers used with refreshable braille displays
+A279,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,"the restrictive nature of screen readers can impact the process of spatially-distributing content on a graphical user interface (e.g. a web page), resulting in designs which may not look as visually-appealing as those developed by sighted developers"
+A65,Blind and/or Visual Impaired,Assistive Technology related,Time consuming,,"The scarcity of documentation on accessibility of UI components meant that programmers with visual impairments often had to just ‚Äúdive in and try‚Äù (T8) to assess the severity of issues across frameworks and libraries: P14: I produced a Qt 5 interface that I cannot interact with [...] after a long, long time of research, I learned about some basic things that can adjust the code to make it accessible to the screen reader."
+A65,Blind and/or Visual Impaired,Assistive Technology related,Time consuming,Navigability,"They also felt that the additional lines of code made readability and navigation difficult with screen readers, especially when editing the UI"
+A8,Blind and/or Visual Impaired,Assistive Technology related,Cognitive Overload,,"This line-by-line strategy is feasible, but imposes a high cognitive load on the programmer‚Äîsyntax details such as whitespace and block braces are often very difficult to follow, as Stefik et al. demonstrate in multiple studies [8],[9], [10]"
+A74,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,Glanceability,"Unfortunately, screen readers do not have access to a program‚Äôs structure. Tokens are read one at-a-time, and the program is broken up into nothing more than a series of lines"
+A61,Blind and/or Visual Impaired,Assistive Technology related,Cognitive Overload,,"Users persevere with slow line-by-line reading, relying on their memory and experience and by being generally resilient to issues they encounter"
+A61,Blind and/or Visual Impaired,Assistive Technology related,Time consuming,,"Users persevere with slow line-by-line reading, relying on their memory and experience and by being generally resilient to issues they encounter"
+A100,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,"Visually-impaired programmers today achieve this using screen readers and tactile displays, but these tools did not completely remove barriers to making professional computing truly accessible [4]."
+A61,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,"While being a text- and keyboard-based interface contributes to improved accessibility compared to graphical user interfaces, this does not necessarily translate into a completely accessible user experience. For instance, being text-based and keyboard operable would meet only a small subset of the WCAG [5] criteria"
+A114,Blind and/or Visual Impaired,Assistive Technology related,Technologically Limited,,"Unfortunately, blind programmers have no way to skim code that is presented on the web. The accessibility is comparable to that of a primitive text editor."
+A533,General,Companies inability to deal with PwD,Lack of inclusion policies,,(2) a lack of accountability towards disabled workers in atypical employment
+A533,General,Companies inability to deal with PwD,Lack of inclusion policies,,"A major difference between the Analogue and the Digital Economies lies in the invisibility of the online world: what happens in the virtual workplace may easily be left unseen, which makes it all the more important to collect data on disabilities within the Digital Economy, if inclusion is to be taken seriously and any labour market inequalities are to be addressed, as the European Union has set out to do."
+A543,Neurodivergent,Companies inability to deal with PwD,Lack of inclusion policies,,"Another point that was raised is that even with many actions being taken to make the company more pleasant for everyone, there are still groups that are not receiving due attention in some companies. A contrasting example given by the interviewees P4 and P7 is about the group of neurodivergent people. While P4 says the debate on neurodiversity does not happen within company A and the leadership is not trained to deal with these situations,"
+A543,Neurodivergent,Companies inability to deal with PwD,Inadequate Hiring Process,diversity,"As reported by P4, these [selection] processes need to be restructured since the traditional ones used by companies usually depend on body language and other factors that naturally end up harming the performance of neurodivergent people."
+A65,Blind and/or Visual Impaired,Companies inability to deal with PwD,Impacts on Career Advancement,,Employment opportunities were a common reason among interview participants (n = 9) to learn UI development.
+A533,General,Companies inability to deal with PwD,Lack of inclusion policies,,"For the distribution platforms to become more inclusive for all developers, a more responsive and approachable customer service would be required assisting disabled developers in the app review process."
+A65,Blind and/or Visual Impaired,Companies inability to deal with PwD,Lack of inclusion policies,,"Furthermore, workplace dynamics complicated the implementation of accessibility. P10 mentioned that the changes had to be approved by senior management, who may consider the trade-offs between his productivity as a developer and the time it would take to improve the accessibility"
+A520,Neurodivergent,Companies inability to deal with PwD,Inadequate Hiring Process,,"However, adults with ASD often have trouble navigating traditional job interviews, complex work environments due to the social dynamics, varied communication requirements and need for flexibility [28]."
+A79,Blind and/or Visual Impaired,Companies inability to deal with PwD,Impacts on Career Advancement,,"However, there has been little formal investigation of what navigating web development education and web-related career pathways are like as a blind screen reader user."
+A305,Motor/physical impairment,Companies inability to deal with PwD,Lack of Accessible Work Environments,,"However, this can present signifcant barriers for people with physical impairments who may experience challenges in using traditional input devices to support coding activities. The use of voice control in conjunction with other input modalities (e.g. mechanical switches, eye gaze, etc.) presents an alternative interaction method for enabling disabled developers to write, navigate, and manipulate code [6, 29, 32], although there has been a lack of work around this area to date"
+A379,Other - Deaf-Blind,Companies inability to deal with PwD,Lack of Accessible Work Environments,,"If anything is moved around or modified, there is a high probability that the user‚Äôs workflow could becompletely halted. The physical arrangement of the facility for the average employee, encourages a productive workflow. However, for the assistive technology user, the updating of furniture placement brings about anxiety and more effort to get used to adjustments and rework his daily routine."
+A520,Neurodivergent,Companies inability to deal with PwD,Inadequate Hiring Process,,Individuals with ASD may be overlooked within a regular interview process due to their unique social skills.
+A241,Blind and/or Visual Impaired,Companies inability to deal with PwD,Impacts on Career Advancement,,Participants mentioned often leaving the UI work to their coworkers while they focus on the logic aspect of the program.
+A543,General,Companies inability to deal with PwD,Lack of inclusion policies,General,"People with disabilities was only briefly mentioned by manager A. Some specific practices were still carried out, such as the addition of sign language interpreters in meetings, but which in any case only reach a small audience within the group of people with disabilities."
+A79,Blind and/or Visual Impaired,Companies inability to deal with PwD,Impacts on Career Advancement,,"Several participants (P2, P4, P7, P8, P11) told us that they have mostly shied away from front-end web development and in their professional lives have gravitated to companies/organizations that structure work around a division of labor between front-end and back-end web development"
+A543,Neurodivergent,Companies inability to deal with PwD,Lack of inclusion policies,General,"some groups end up being left out and little is done regarding their needs within companies. This is the scenario for neurodivergent people and people with disabilities, who even in the Software Engineering literature rarely have their needs discussed in the context of diversity"
+A279,Blind and/or Visual Impaired,Companies inability to deal with PwD,Impacts on Career Advancement,,"They suggested that after trying to learn these technologies, frustrations from not being able to access components in the software led them to using alternative solutions."
+A520,Neurodivergent,Companies inability to deal with PwD,Lack of Accessible Work Environments,,"When designing a typical office space, it is designed to meet all of the average persons‚Äô basic needs. Although a lot of the time, the designer does not consider the needs of a person with ASD. Design elements that are autism-friendly include an orderly workspace, simple design, indirect lighting, muted colour tones, quietness and escape rooms which can create a positive work environment and help limit the stress and anxiety triggers for individuals with ASD [19, 34]"
+A147,Blind and/or Visual Impaired,Educational Resources and Learning,,Discoverability,"Behind this problem are intertwined issues of accessibility and learnability. Because different IDEs use different architectures and have different levels of accessibility compliance, blind developers face a new learning curve each time they use an IDE"
+A147,Blind and/or Visual Impaired,Educational Resources and Learning,,,Blind developers also face the additional challenge of learning the non-visual workaround of accessing an IDE with a screen reader [9]
+A241,Blind and/or Visual Impaired,Educational Resources and Learning,,,"P6 mentioned the challenge when a new tool is introduced and the additional cognitive effort required by BVI programmers to learn it. Compared to sighted programmers, it may take longer for BVI programmers to learn a tool:"
+A3,Blind and/or Visual Impaired,Educational Resources and Learning,,,"Six participants {P1, P3, P4, P7, P8, P10}, identified specific accessibility issues in official documentation"
+A3,Blind and/or Visual Impaired,Educational Resources and Learning,,,"Six participants {P4, P5, P6, P9, P10} remarked upon the accessibility of forums and, in particular, Stack Over Flow"
+A3,Blind and/or Visual Impaired,Educational Resources and Learning,,,"So, while textbooks were especially useful resources, whether they were accessible largely depended on their format"
+A3,Blind and/or Visual Impaired,Educational Resources and Learning,,,"specific accessibility issues in blogs and tutorials. Most commonly, participants indicated that blogs and tutorials make heavy use of visual instructional content that is not properly described {P1, P2, P5, P6, P7, P8, P9, P12}. {P5} suggested that accessibility issues are especially prevalent in blogs and tutorials"
+A65,Blind and/or Visual Impaired,Educational Resources and Learning,,,"The scarcity of documentation on accessibility of UI components meant that programmers with visual impairments often had to just ‚Äúdive in and try‚Äù (T8) to assess the severity of issues across frameworks and libraries: P14: I produced a Qt 5 interface that I cannot interact with [...] after a long, long time of research, I learned about some basic things that can adjust the code to make it accessible to the screen reader."
+A65,Blind and/or Visual Impaired,Educational Resources and Learning,,,These challenges are amplified by IDE documentation that rely on screenshots and do not list relevant keyboard shortcuts
+A114,Blind and/or Visual Impaired,Educational Resources and Learning,,,"Blogs and tutorials routinely feature code samples embedded alongside the text. If a blind programmer wants to skim the code, they must have an IDE that supports it. They must then clone the entire repository or manually download single files. This process is tedious and will reduce the blind programmer‚Äôs effectiveness at a program comprehension task."
+A3,Blind and/or Visual Impaired,Educational Resources and Learning,,,"while web search sites were largely accessible, the variable accessibility of returned results created an mixed experience. Additionally, because the web search sites return valid results‚Äîtheir intended function‚Äîinaccessibility in the sources returned may be particularly frustrating, in that DWVI, like {P11}, may know they have found the right information, but are then prevented from retrieving it."
+A8,Blind and/or Visual Impaired,Unemployment,,,"blind programmers were a target of deliberate discrimination by employers, despite legal protections, due to confusion about how a blind person might integrate into team of sighted programmers [19]. Studies of how blind programmers comprehend code may help demystify the process of hiring the visually impaired"
+A520,Neurodivergent,Unemployment,,,"individuals with ASD in their twenties were found to be less likely to be employed than their peers with other disabilities, including speech/ language impairment, emotional disturbance, intellectual disability and learning disabilities"
+A520,Neurodivergent,Unemployment,,,"Strikingly, almost 42% of young adults on the autism spectrum either never worked, or worked and did not receive remuneration for that work during their early 20‚Äôs"
+A533,General,Unemployment,,,"The Committee also noted the persistent employment and pay gaps, which reveal the severity of the labour market inequalities. The employment gap between disabled and nondisabled people of working age is currently at 20 and 40 percentage points for the EU and the UK respectively."
+A3,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Fear of being judged unqualified,,"But, our findings suggest that whether employing the vision of sighted colleagues as a workaround was perceived by DWVI as an embarrassing act of reliance or a typical team collaboration depended upon the knowledge and empathy of their sighted teammate"
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Fear of being judged unqualified,,"These instances highlight that accessibility issues in UI development could affect responsibilities beyond software engineering tasks, which developers are expected to perform in professional settings."
+A312,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Fear of being judged unqualified,,"Our participants indicated that seeking help from others, especially from those who are sighted, is avoided by many blind individuals in workplace settings, often due to embarrassment about the amount of time they take to accomplish certain tasks."
+A463,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Fear of being judged unqualified,,"However, programmers with visual impairments feel that seeking assistance draws attention to the additional time it takes them to complete programming tasks [5]. This is likely to be magnifed in collaborative contexts, which we examine in our study"
+A379,Other - Deaf-Blind,Work Dynamics in mixed ability teams,Social Interaction Challenges,,"At the moment, adding a short sentence like ‚ÄúHope you‚Äôre having a good day!‚Äù to the beginning of an email takes substantially longer for the user than it does for the average person. Consequently, the user avoids adding in such phrases and sticks to writing emails that are succinct and direct, so they can come off as unwelcoming and standoffish."
+A464,Neurodivergent,Work Dynamics in mixed ability teams,Social Interaction Challenges,,Challenges in social interactions and asking for help were identified.
+A520,Neurodivergent,Work Dynamics in mixed ability teams,Social Interaction Challenges,,"However, adults with ASD often have trouble navigating traditional job interviews, complex work environments due to the social dynamics, varied communication requirements and need for flexibility [28]."
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Fear of being judged unqualified,,P16 shared that his position as the only blind person in the organization and as a new member of the team foregrounded his request. Insisting upon accessibility could suggest to the team that he was not able to do his job as well as other developers.
+A379,Other - Deaf-Blind,Work Dynamics in mixed ability teams,Social Interaction Challenges,,"Since he is blind-deaf, it is difficult for people to interact with him face-to-face, as any contact startles him."
+A464,Neurodivergent,Work Dynamics in mixed ability teams,Social Interaction Challenges,,"Neurodiverse individuals offer unique perspectives and strengths to the workplace. However, they may encounter challenges related to executive functions (e.g., inhibitory control, cognitive flexibility, working memory, planning, and reasoning), essential for behavioral control, teamwork, and job performance in software development"
+A520,Neurodivergent,Work Dynamics in mixed ability teams,Social Interaction Challenges,,"This lack of interpersonal skills can in turn be a challenge to those with ASD trying to gain employment as a significant number of software development jobs require communication, collaboration and management skills [16]"
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Fear of being judged unqualified,,"Participants (n = 3) shared that poor accessibility of the UI presented challenges during demonstrations. In meetings involving stakeholders and clients, it could also suggest poor quality of work by the team."
+A520,Neurodivergent,Work Dynamics in mixed ability teams,Social Interaction Challenges,,"Individuals may experience difficulty empathising with colleagues and as many autistic people have restricted or specialised interests, they may distract themselves during social interactions [17] making it difficult to build relationships among co-workers and peers. Morris et al. explain that individuals with autism experience difficulties interpreting co-workers‚Äô statements and emotions, coping with office politics and managing conflicts with peers [16]. These various social challenges can in turn induce stress and anxiety for those experiencing ASD, especially in the workplace"
+A379,Other - Deaf-Blind,Work Dynamics in mixed ability teams,Social Interaction Challenges,,"The need for such a device was imperative as we heard through our contextual inquiry that some have concerns on what to do in the times of an emergency and others feel anxious initiating an in-person conversation with the user. Trying to address this issue, this system hopes to alleviate some of the concerns and anxiety that revolve around such interactions."
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Extra work advocating for accessibility,,"Participants also described having to advocate for accessible solutions within their team. Often the decision to use a particular framework or programming tool was taken by the team collectively. If they chose things with poor accessibility, it could severely impact the productivity of programmers with visual impairments. For instance, P8 had to convince his team to use Xamarin and Visual Studio for the Android application they were building; the poor accessibility of Android Studio would keep him from giving his ‚Äúfull efforts‚Äù: P8: I explained to them that if we develop using Xamarin, we will be able to do it in less time."
+A79,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Extra work advocating for accessibility,,"P8 told us about a number of strategies employed to self-advocate in the workplace, but ultimately that it was the responsibility of everyone"
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Extra work advocating for accessibility,,"As prior work has found, programmers with visual impairments were often tasked with educating their colleagues about accessibility issues and advocating for accessible solutions"
+A79,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Extra work advocating for accessibility,,P8 described issues with colleagues not knowing how to work with him and needing to demonstrate how
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Extra work advocating for accessibility,,"Both P10 and P16 shared that they had pushed for making their UIs accessible, not only to make themselves more productive but also for other screen reader users. However, it was difficult to implement accessibility in legacy UIs, an issue also raised in several email threads (n = 5)."
+A146,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,Remote,That task of providing accessible awareness information lies at the heart of facilitating effective remote collaborations in mixedability contexts.
+A146,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,Remote,"In summary, the workarounds discussed above insufficiently convey collaborator awareness, suffer from delays, place a disproportionate burden on BVI people for driving the collaboration, and compromise their agency"
+A146,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,"A common approach is asking collaborators to describe their actions, but sighted people often forget to verbalize the relevant details, resulting in incomplete collaborator awareness"
+A146,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,Remote,"This screen inaccessibility is magnifed in remote synchronous collaboration. (...). However, BVI developers cannot access the screen share video or the visual awareness cues in IDEs through assistive technologies such as screen readers"
+A241,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,Remote,P6 has difficulty when it comes to using team-based collaboration tools such as Trello.
+A241,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,p6 mentions how his visual impairment can make certain collaborative activities like pair programming a challenge
+A241,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,"P4 and P10 recall experiences of team settings where coworkers often have trouble determining how to send visual information in a format that is readable by a screen reader. For example, P10 would get an image of code from a coworker but her screen reader is unable to read it."
+A3,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,"four participants {P7, P9, P11, P12} indicated times where sighted others introduced accessibility issues in their information seeking."
+A429,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,"Without the ability to modify and create new diagrams the access of blind people is only partial, they are able to access and understand the information they seek to convey but are unable to participate in its construction or collaborate in software modeling activities by using TeDUB"
+A463,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,Challenges in collaboration are likely to reinforce some of the ableist perceptions about the abilities of people with visual impairments and limit their opportunities for employment and advancement
+A464,Neurodivergent,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,"Challenges emerged in executive functions and cognitive abilities such as working memory, task initiation, cognitive flexibility, and abstract reasoning"
+A464,Neurodivergent,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,Challenges in social interactions and asking for help were identified.
+A520,Neurodivergent,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,People with ASD can also struggle with multitasking which may be particularly difficult during team meetings where employees must listen and contribute to the conversation
+A579,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,On-Site,"In the beginning, the blind developer was limited to performing accessibility tests and maintaining old software. He was unable to access information displayed on visual management items, and consequently was unable to communicate with his colleges through these means."
+A579,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,On-Site,"This version of the Task Board had accessibility problems. In fact, nothing in it was accessible. The features copied and placed on one of the twelve frames made it virtually impossible for a blind person to find information on the task board"
+A579,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,On-Site,"The Task Board contained four projects, and someone had to guide him to the correct one. Furthermore, to distinguish the stages of the project, he had to find the end of the table containing the project he was assigned, and then with his finger find the boundaries between each stage until the To Do column."
+A579,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,On-Site,"The new process included several visual management elements, such as task board [13], work completion graphs [14, 5], and software testing panels [15]. These components helped provide transparency, inspection capacity and schedule predictability. However, the team included one blind developer, so a model based on visual elements meant a challenge for them."
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,"If the UI elements are not in the correct order or misrepresented, then it affects screen reader navigation and interaction. For programmers with visual impairments, this hindered their ability to debug and test."
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,"artifacts such as wireframes and design specifications lack text descriptions or are inaccessible with screen readers, requiring clarification about colors, pixel values, etc., with sighted team members"
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,Inaccessible GUI builders could also complicate collaboration with sighted colleagues. It prevented them from creating ‚Äúclean looking resource file‚Äù (T30) that their sighted colleagues could review quickly.
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,"Unable to use the application fully, he could not build sufficient context about the project. He shared that he had to attend multiple meetings with the design team and his manager to understand the UI design and functionality expected from controls he could not access"
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,the differences in programming environments also make it difficult for programmers with visual impairments to give and receive instrumental help.
+A65,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,"In the case of UI development, they complicate the processes of code writing, debugging, and ensuring accessibility with screen readers. They also impact collaboration between programmers with visual impairments and their sighted colleagues since they use different approaches to UI development. [they: Programming Environment]"
+A79,Blind and/or Visual Impaired,Work Dynamics in mixed ability teams,Collaborative Work Challenges,,P8 described issues with colleagues not knowing how to work with him and needing to demonstrate how
+A64,Blind and/or Visual Impaired,Work Tools Inaccessibility,Diagrams and Prototyping Tools,N/A,"""Notwithstanding small variations across screen readers (VoiceOver generally performing better) and prototyping tools (Balsamiq‚Äôs task efciency as a beneft), our analysis showed that prototyping tools are not efectively accessible to screen readers, and thus would be difcult to access by a person with a vision impairment."""
+A65,Blind and/or Visual Impaired,Work Tools Inaccessibility,Diagrams and Prototyping Tools,N/A,"artifacts such as wireframes and design specifications lack text descriptions or are inaccessible with screen readers, requiring clarification about colors, pixel values, etc., with sighted team members"
+A100,Blind and/or Visual Impaired,Work Tools Inaccessibility,Diagrams and Prototyping Tools,N/A,"Visual aids that are commonly used by sighted people remain unavailable to the community of visually-impaired programmers. These include features to make code more readable, such as colour coding, indentation, features from integrated development environments (IDEs), as well as UML and data structure diagrams to illustrate programming concept"
+A429,Blind and/or Visual Impaired,Work Tools Inaccessibility,Diagrams and Prototyping Tools,N/A,"Most of the times there is also textual content inside these diagrams, but the meaning of the visual notations is so relevant that the understanding of the content is almost impossible when only listening to the textual content of the model."
+A241,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Debug,Debugging and code navigation were discussed in parallel with aspects of debugging involving navigating to the error.
+A279,Blind and/or Visual Impaired,Work Tools Inaccessibility,Visual Interface Development,,"Participants suggested that it was difficult to modify the layout of objects using the screen reader, due to the lack of synchronization between the visual and non-visual presentation of web page content. This was particularly an issue when prototyping on-the-fly."
+A241,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Navigability,"Other participants (P6, P10, P11) indicated the advantage of sighted programmers of moving through the code quicker and having less information to memorize than BVI programmers."
+A241,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Navigability,Participants brought up the difficulty in navigating through a code base as their screen readers move primarily in a linear manner
+A100,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Glanceability,"Visual aids that are commonly used by sighted people remain unavailable to the community of visually-impaired programmers. These include features to make code more readable, such as colour coding, indentation, features from integrated development environments (IDEs), as well as UML and data structure diagrams to illustrate programming concept"
+A145,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,,Author B has been programming using a screen reader and B‚Äôs experiences with IDEs involved significant effort in tackling inaccessibility
+A279,Blind and/or Visual Impaired,Work Tools Inaccessibility,Visual Interface Development,,"Web editing technologies were thought to be designed with sighted users in mind, often encouraging users to drag-and drop. However, for non-mouse users, performing these tasks using keystrokes could be difficult."
+A145,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,,A‚Äôs attempt to move to an IDE like Visual Studio was unsuccessful since the accessibility issues were found to be too daunting without continuous help from a sighted person.
+A145,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Discoverability,"Discoverability: This is the ability with which a user can find features of the system to increase proficiency over time. Discoverability is an issue for sighted users as well but is exacerbated for VI developers. For instance, the author B was not aware of the variable watch window2 and used console messages to find the variable values until pointed out by a sighted team member. Ex: - Existing features; - New and modified features"
+A145,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Glanceability,"Glanceability: Visual Studio and most IDEs by definition, use the large real estate provided by high resolution monitors to present many aspects of the program development process in one screen"
+A279,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Debug,"Participants highlighted difficulties with screen readers interpreting Javascript output, making it challenging in certain instances to verify whether the scripting code which they had written was appropriate. As a result, scripting languages were often used with caution."
+A65,Blind and/or Visual Impaired,Work Tools Inaccessibility,Visual Interface Development,,"Several solutions at the intersection of accessibility and UI development are targeted at sighted developers and designers to support them in building accessible interfaces. First, their underlying interactions and interfaces remain visual and, therefore, of limited use to programmers with visual impairment."
+A65,Blind and/or Visual Impaired,Work Tools Inaccessibility,Visual Interface Development,Navigability,"They also felt that the additional lines of code made readability and navigation difficult with screen readers, especially when editing the UI"
+A145,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Navigability,"Navigability: An added advantage for sighted developers is the ability to quickly navigate through code using scroll, point and click. Screen reader users are limited to the search functionality and few other navigation features provided by the IDEs"
+A279,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Debug,"Participants described the process of verifying code and content as time-consuming, as they would need to switch continuously between the code in the text editor to the browser page to ensure that all errors had been fixed. If further errors were identified, participants would often leave comments in the code to repair them at a later point in time."
+A145,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Alertability,Alertability: IDEs convey a significant amount of real time information through a completely visual interface [2]. Such information alerts the developer to issues that need immediate attention or actions that are in progress. The following examples enumerate few scenarios where VI developers do not get access to the real time information provided by the IDE: - Debugging Information; - Error Information
+A79,Blind and/or Visual Impaired,Work Tools Inaccessibility,Visual Interface Development,,"P8 reported that CSS output ‚Äúis by far the biggest accessibility hurdle that you have to deal with, which is why I don‚Äôt deal with CSS.‚Äù Specifically, he described issues in knowing what is rendered on screen"
+A305,Motor/physical impairment,Work Tools Inaccessibility,General Programming Challenges - Exception (MOTOR),Navigability,"All participants highlighted that they use speech-based tools (e.g. Talon [42], Dragon Dictate [45]) for development work and emphasized that their existing tools provide limited navigation features"
+A147,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Discoverability,"Behind this problem are intertwined issues of accessibility and learnability. Because different IDEs use different architectures and have different levels of accessibility compliance, blind developers face a new learning curve each time they use an IDE"
+A214,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,,"While sighted developers are able to quickly develop code, blind developers can face difficulties in programming activities. The problem is that developers rely on the visual presentation of the code displayed within the Integrated Development Environments (IDEs). This programming software, which has features that require sight, presents obstacles for developers with visual impairments."
+A79,Blind and/or Visual Impaired,Work Tools Inaccessibility,Visual Interface Development,,"Conceptual issues that participants reported relate to knowing what good visual design is. For example, participants described issues with knowing what colors look good together, what type face to select for different projects, and how to position elements to make a visually appealing interface layout"
+A241,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,,Participants found that IDEs are too complex and geared more towards visual functionality.
+A242,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Alertability,"Being unable to use these visual cues, programmers with visual impairments must struggle to contend with the complexities of writing source code such as resolving syntax errors and determining nesting levels."
+A279,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Discoverability,"However, these cues are not always accessible to screen reader users, meaning that individuals who are blind may not be benefiting from the support provided to sighted users."
+A79,Blind and/or Visual Impaired,Work Tools Inaccessibility,Visual Interface Development,,"Some interview participants reported having issues with reconciling the relationship and potential differences between the document-object model (DOM) and the way DOM elements are rendered visually. P2 reported that he was able to grasp the associated terms, but not how they work together to create a ‚Äúnice looking web site"""
+A312,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Discoverability,"Prior research on blind programmers has found that the information conveyed through visual metaphors in IDEs are often not conveyed by screen readers [2], which creates challenges for blind programmers [9, 18], putting them at a disadvantage when compared to their sighted peers [7, 11]"
+A312,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Discoverability,"Screen reader users also have access to fewer advanced IDE features for quickly moving through a large codebase, often forcing them to navigate code line-by-line or jump to different locations using ‚Äúfind/search‚Äù features [2]"
+A61,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Glanceability,"Many cues about the structure of source code like indentation and nesting hierarchies are encoded visually, making it difficult for DWVI to comprehend and navigate code with screen readers efficiently"
+A312,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Navigability,"Blind programmers who are using screen readers or braille displays (which convey information linearly, one line at a time) have difficulty understanding structural relationships quickly [11, 19, 23]."
+A380,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges - physical programming,,"Visualizations of sensor state are available in many of today‚Äôs physical computing platforms in visual form (e.g., [27, 68]). However, most of the websites and tools developed to program these boards, as well as the tutorials created for them, are partly or wholly inaccessible."
+A65,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,,"In the case of UI development, they complicate the processes of code writing, debugging, and ensuring accessibility with screen readers. They also impact collaboration between programmers with visual impairments and their sighted colleagues since they use different approaches to UI development. [they: Programming Environment]"
+A409,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Debug,"Another challenge mentioned by blind developers is using debugging tools, as most debugging tools do not work well with screen readers"
+A409,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Navigability,"In fact, blind developers have more difficulties navigating and understanding the structure of code than their sighted counterparts"
+A65,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,,Emulators provided by major IDEs like Android Studio were often inaccessible with screen readers
+A409,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Navigability,"Blind developers found it difficult to search through the code to find variables or methods, especially since it requires moving the cursor to a specific line in order to have the screen reader read it aloud"
+A61,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges - CLI,,dificulty in consuming unstructured text that often appears as output of commands. [Command Line Interface]
+A61,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges - CLI,,"Sometimes CLIs use ASCII characters to decorate tables and other output entities to make them visually appealing. However, our study participants found this experience very distracting and adding to the already difficult task of reading a table"
+A61,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges - CLI,Debug/Navigation,"The most frequent issues found were around IDE accessibility, debugging, and code navigation."
+A74,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Navigability,"blind programmers have been shown to have more difficulties navigating and understanding the structure of code than their sighted counterparts [5, 9, 10"
+A74,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges,Glanceability,"Unfortunately, screen readers do not have access to a program‚Äôs structure. Tokens are read one at-a-time, and the program is broken up into nothing more than a series of lines"
+A65,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Navigability,"IDEs and text editors rely heavily on visual aids such as syntax highlighting and indentation to assist in source code navigation, organization, and visual search [13]‚Äì[15]. IDEs also organize information visually into panels and windows, which are difficult for programmers with visual impairments to locate quickly relative to sighted programmers."
+A65,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Geopolitical Issues,"The participants from Iran (P15 and P16) shared that they had to contend with an extra layer of inaccessibility. IDEs offered by Google and Apple, including the devices by the latter, were not usable in Iran because of the government sanctions imposed on the country."
+A76,Blind and/or Visual Impaired,Work Tools Inaccessibility,General Programming Challenges - Block,,"The Blockly library itself is not accessible to people with visual impairments, and as a result, all the mainstream BBPEs that rely on Blockly are not accessible"
+A79,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,Alertability,"Although participants reported that they were proficient with screen readers, some (P3, P4, and P6) described performance issues with their assistive tech that made web development tasks like debugging difficult."
+A79,Blind and/or Visual Impaired,Work Tools Inaccessibility,Visual Interface Development,,"Some participants (n=3) use the NVDA developer toolkit (DTK) [19] to better understand visual interfaces and the output of their CSS. NVDA DTK allows users to move through elements in the DOM using arrow keys and provides some information about the visual interface (such as their color, font, height, position of top, right, bottom, and left edges, and distance between parent elements). However, ‚ÄúDTK cannot access information such as CSS rules, padding, borders, or z-index‚Äù [58]"
+A79,Blind and/or Visual Impaired,Work Tools Inaccessibility,Visual Interface Development,,"Applied aspects of visual interface design include working with default HTML visual style and applying CSS. Participants reported issues with getting feedback about default element styles, the way element styles compute in relation to each other, and confirming that their CSS work has impacted visual styling, as intended"
+A87,Blind and/or Visual Impaired,Work Tools Inaccessibility,IDE's related,,These heavily visual tools and the intrinsic characteristics of most programming languages impose significant barriers to people with visual impairments working as programmers or software developers
